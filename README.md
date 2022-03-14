@@ -5,8 +5,8 @@ Blight violations are issued by the city to individuals who allow their properti
 
 Each row corresponds to a single blight ticket, and includes information about when, why, and to whom each ticket was issued. The target variable is compliance, which is True if the ticket was paid early, on time, or within one month of the hearing data, False if the ticket was paid after the hearing date or not at all, and Null if the violator was found not responsible.
 
-Modelling Summary
-1. XGBoost:
+# Modelling Summary
+**1. XGBoost:**
 
     i.   Without over-sampled data set----- AUC: 0.82 || Precision: 0.90 || Recall: 0.26
     ii.  With over-sampled data set ------- AUC: 0.77 || Precision: 0.38 || Recall: 0.49
